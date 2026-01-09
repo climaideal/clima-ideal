@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: #005fae;
+  color: white;
+  padding: 15px 0;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo span {
+  color: #9dd6ff;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  background: linear-gradient(to right, #005fae, #4da8da);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: #005fae;
+  padding: 12px 25px;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #005fae;
+}
+
+.light {
+  background: #f4f8fb;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.dicas li,
+.normas li {
+  margin-bottom: 15px;
+}
+
+.normas a {
+  margin-left: 10px;
+  color: #005fae;
+  font-size: 0.9em;
+}
+
+.obs {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.contato {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #003f73;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* LOGO */
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-area img {
+  height: 55px;
+}
+
+.logo-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+}
+
+.logo-text p {
+  font-size: 0.85em;
+  color: #cce6ff;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: white;
+  font-size: 28px;
+  padding: 15px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.whatsapp-float:hover {
+  background: #1ebe5d;
+}
