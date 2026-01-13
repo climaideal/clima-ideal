@@ -160,3 +160,29 @@ footer {
 .whatsapp-float:hover {
   background: #1ebe5d;
 }
+
+.form-orcamento {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-orcamento label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-orcamento input,
+.form-orcamento textarea,
+.form-orcamento select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-orcamento button {
+  margin-top: 25px;
+  cursor: pointer;
+}

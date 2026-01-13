@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitar Orçamento | Clima Ideal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <h2 style="color:white;">Solicitação de Orçamento</h2>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+  <form action="https://formsubmit.co/azevedo.emsa@gmail.com"
+      method="POST"
+      class="form-orcamento">
+
+      <label>Nome:</label>
+      <input type="text" name="Nome" required>
+
+      <label>Telefone / WhatsApp:</label>
+      <input type="text" name="Telefone" required>
+
+      <label>E-mail:</label>
+      <input type="email" name="Email">
+
+      <label>Tipo de serviço:</label>
+      <select name="Servico">
+        <option>Instalação</option>
+        <option>Manutenção</option>
+        <option>Higienização</option>
+        <option>Projeto</option>
+      </select>
+
+      <label>Mensagem:</label>
+      <textarea name="Mensagem" rows="5"></textarea>
+<input type="hidden" name="_subject" value="Novo orçamento - Clima Ideal">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="obrigado.html">
+      <button type="submit" class="btn">Enviar Solicitação</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Clima Ideal</p>
+</footer>
+
+</body>
+</html>
